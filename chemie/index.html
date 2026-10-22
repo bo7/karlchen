@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomenklatur - Chemie Spickzettel</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-effects">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <nav class="site-nav">
+        <div class="site-nav-inner">
+            <span class="nav-label">Chemie</span>
+            <a href="index.html" class="active">Nomenklatur</a>
+            <a href="gruppen.html">Funktionelle Gruppen</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Nomenklatur <span class="highlight">Rezept</span></h1>
+        <p>Dein Notfall-Spickzettel für die Klausur in 2 Tagen. Kein Verstehen, nur Anwenden!</p>
+    </header>
+
+    <main class="container">
+        <section class="intro-section glass-panel" style="margin-bottom: 3.5rem;">
+            <h2 class="section-title text-gradient" style="font-size: 2.2rem;">Was zum Teufel sehe ich hier? (Die Basics)</h2>
+            <div class="intro-content">
+                <p style="font-size: 1.15rem; color: var(--text-muted); margin-bottom: 1.5rem; text-align: center;">Nein, das sind keine Ausschnitte! Du siehst hier <strong>komplette Moleküle</strong> (die "Skelettformel"). Chemiker sind nämlich berüchtigt schreibfaul.</p>
+                <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem;">
+                    <ul style="list-style: none; display: flex; flex-direction: column; gap: 1rem; font-size: 1.1rem; color: var(--text-main);">
+                        <li>&#9898; <strong>Die Punkte:</strong> Jeder einzelne weiße Punkt ist genau <strong>ein Kohlenstoff-Atom (C-Atom)</strong>. Aneinandergereiht bilden sie das "Rückgrat" des Moleküls.</li>
+                        <li>&#10134; <strong>Die Striche:</strong> Die grauen Linien sind die "Bindungen" – stell es dir vor, als würden die Atome sich an den Händen halten, um nicht auseinanderzufallen.</li>
+                        <li><strong>Die unsichtbaren H's:</strong> An jedem C-Atom hängen eigentlich noch Wasserstoff-Atome (H). Da die aber total langweilig und unwichtig für den Namen sind, lässt man sie beim Zeichnen einfach komplett weg. Man zeichnet nur das nackte "Skelett".</li>
+                        <li><strong>Die VIPs (Sondergruppen):</strong> Nur die wichtigen Ausnahmen, die eine bestimmte Funktion haben (wie das farbige <strong>-OH</strong> oder das rote <strong>=O</strong>), werden als echte Buchstaben extra hingeschrieben (manchmal mit eigenem Strich).</li>
+                    </ul>
+                </div>
+                <div class="alert info">
+                    <strong>Dein einziger Job in der Klausur:</strong> Ignorier den unsichtbaren H-Kram! Du musst einfach nur stur die <strong>Punkte (C-Atome)</strong> in der längsten Kette zählen und als Detektiv schauen, an welchem Punkt ein VIP-Gast (OH, =O, oder noch ein einzelner C-Punkt) dranhängt. Mehr ist Nomenklatur nicht!
+                </div>
+            </div>
+        </section>
+
+        <section class="rules-section glass-panel">
+            <h2>Die 3 Goldenen Regeln</h2>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Längste Kohlenstoffkette suchen</h3>
+                        <p>Zähle die "C"s in einer Reihe. Das ergibt den <strong>Stammnamen</strong> (z.B. Butan).</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Nummerieren</h3>
+                        <p>Zähle von links oder rechts, sodass die <strong>wichtige Gruppe</strong> (OH, COOH) die kleinste Zahl bekommt!</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Seitenketten benennen</h3>
+                        <p>Was klebt noch am Rückgrat? Die offizielle Namens-Liste der "Äste" (<span class="badge blue">-yl</span>):</p>
+                        <ul style="list-style: none; margin-top: 0.5rem; margin-bottom: 0.5rem; color: var(--color-blue); background: rgba(59, 130, 246, 0.1); padding: 0.8rem; border-radius: 8px;">
+                            <li style="display: flex; align-items: center; justify-content: space-between; border-bottom: 1px dashed rgba(59,130,246,0.3); padding: 0.4rem 0;">
+                                <span>1 einzelner Ast-Punkt = <strong>Methyl</strong></span>
+                                <div class="dots" style="padding: 0; transform: scale(0.5); transform-origin: right;"><span class="dot hl-dot-blue"></span></div>
+                            </li>
+                            <li style="display: flex; align-items: center; justify-content: space-between; border-bottom: 1px dashed rgba(59,130,246,0.3); padding: 0.4rem 0;">
+                                <span>2 verbundene Ast-Punkte = <strong>Ethyl</strong></span>
+                                <div class="dots" style="padding: 0; transform: scale(0.5); transform-origin: right;"><span class="dot hl-dot-blue"></span><span class="line hl-line"></span><span class="dot hl-dot-blue"></span></div>
+                            </li>
+                            <li style="display: flex; align-items: center; justify-content: space-between; padding: 0.4rem 0;">
+                                <span>3 verbundene Ast-Punkte = <strong>Propyl</strong></span>
+                                <div class="dots" style="padding: 0; transform: scale(0.5); transform-origin: right;"><span class="dot hl-dot-blue"></span><span class="line hl-line"></span><span class="dot hl-dot-blue"></span><span class="line hl-line"></span><span class="dot hl-dot-blue"></span></div>
+                            </li>
+                        </ul>
+                        <p>Das setzt du dann ganz vor den fertigen Namen!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="walkthrough-section glass-panel">
+            <h2 class="section-title text-gradient">Master-Aufgabe Schritt-für-Schritt</h2>
+            <p class="section-subtitle">Beispiel: Ein Molekül benennen (<strong>3-Methylbutan-2-ol</strong>)</p>
+
+            <div class="walkthrough-grid">
+                <div class="wt-step">
+                    <div class="wt-header"><span class="wt-num">1</span><h3>Längste Kette finden</h3></div>
+                    <div class="wt-visual">
+                        <div class="dots">
+                            <span class="dot hl-dot"></span><span class="line hl-line"></span>
+                            <div class="dot-container">
+                                <span class="dot hl-dot"></span>
+                                <span class="branch group-methyl top">CH&#8323;</span>
+                            </div>
+                            <span class="line hl-line"></span>
+                            <div class="dot-container">
+                                <span class="dot hl-dot"></span>
+                                <span class="branch group-oh bottom">-OH</span>
+                            </div>
+                            <span class="line hl-line"></span>
+                            <span class="dot hl-dot"></span>
+                        </div>
+                    </div>
+                    <p>Finde den längsten zusammenhängenden Weg der C-Atome. Hier sind es 4 in einer Reihe. Die Basis ist also <strong>Butan</strong>.</p>
+                </div>
+
+                <div class="wt-step">
+                    <div class="wt-header"><span class="wt-num">2</span><h3>Wichtigste Gruppe</h3></div>
+                    <div class="wt-visual">
+                        <div class="dots">
+                            <span class="dot"></span><span class="line"></span>
+                            <div class="dot-container">
+                                <span class="dot"></span>
+                                <span class="branch group-methyl top">CH&#8323;</span>
+                            </div>
+                            <span class="line"></span>
+                            <div class="dot-container">
+                                <span class="dot hl-dot-green"></span>
+                                <span class="branch group-oh hl-text-green bottom">-OH</span>
+                            </div>
+                            <span class="line"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <p><strong>Die Rezept-Regel:</strong> Sobald in der Zeichnung plötzlich <strong>echte Buchstaben</strong> (wie das farbige <strong>-OH</strong>) dranhängen, ist das der Boss! OH anwesend = Endung <strong>-ol</strong>. Aus Butan wird: Butan<strong>-ol</strong>.</p>
+                </div>
+
+                <div class="wt-step">
+                    <div class="wt-header"><span class="wt-num">3</span><h3>Kette nummerieren</h3></div>
+                    <div class="wt-visual">
+                        <div class="dots">
+                            <div class="dot-container"><span class="dot"></span><span class="b-number number-show">4</span></div>
+                            <span class="line"></span>
+                            <div class="dot-container">
+                                <span class="dot"></span>
+                                <span class="branch group-methyl top">CH&#8323;</span>
+                                <span class="b-number number-show">3</span>
+                            </div>
+                            <span class="line"></span>
+                            <div class="dot-container">
+                                <span class="dot hl-dot-green"></span>
+                                <span class="branch group-oh bottom hl-text-green">-OH</span>
+                                <span class="b-number number-show hl-text-green">2</span>
+                            </div>
+                            <span class="line"></span>
+                            <div class="dot-container"><span class="dot"></span><span class="b-number number-show">1</span></div>
+                        </div>
+                    </div>
+                    <p>Wir nummerieren die 4 C-Atome (von rechts nach links), um der OH-Gruppe die kleinstmögliche Zahl zu geben (die "2"). Zwischenstand: Butan-<strong>2</strong>-ol.</p>
+                </div>
+
+                <div class="wt-step">
+                    <div class="wt-header"><span class="wt-num">4</span><h3>Restliche Seitenketten</h3></div>
+                    <div class="wt-visual">
+                        <div class="dots">
+                            <div class="dot-container"><span class="dot"></span><span class="b-number number-show">4</span></div>
+                            <span class="line"></span>
+                            <div class="dot-container">
+                                <span class="dot hl-dot-blue"></span>
+                                <span class="branch group-methyl hl-text-blue top">CH&#8323;</span>
+                                <span class="b-number number-show hl-text-blue">3</span>
+                            </div>
+                            <span class="line"></span>
+                            <div class="dot-container">
+                                <span class="dot"></span>
+                                <span class="branch group-oh bottom hl-text-green">-OH</span>
+                                <span class="b-number number-show">2</span>
+                            </div>
+                            <span class="line"></span>
+                            <div class="dot-container"><span class="dot"></span><span class="b-number number-show">1</span></div>
+                        </div>
+                    </div>
+                    <p>An unserem <strong>3. C-Atom</strong> klebt ein <strong>CH&#8323;</strong>. Ein einziges C heißt "Methyl". Zusammengebaut als <strong>[Zahl]-[Name]</strong>: <strong>3-Methyl</strong>.</p>
+                </div>
+            </div>
+
+            <div class="wt-result">
+                <h3>Das fertige Puzzle:</h3>
+                <div class="result-formula">
+                    <span class="p-side">3-Methyl</span><span class="p-base">butan</span>-<span class="p-num">2</span><span class="p-suf">-ol</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="quiz-section glass-panel" id="quiz-section">
+            <h2 class="section-title text-gradient">Trainings-Lager</h2>
+            <p class="section-subtitle">Teste dich selbst. Klicke dich Schritt für Schritt zur richtigen Lösung!</p>
+
+            <div class="quiz-content">
+                <div class="quiz-visual-box">
+                    <div class="visual-formula">
+                        <div class="dots" id="quiz-molecule">
+                            <span class="dot"></span>
+                            <span class="line"></span>
+                            <div class="dot-container">
+                                <span class="dot"></span>
+                                <span class="branch group-methyl top">CH&#8323;</span>
+                            </div>
+                            <span class="line"></span>
+                            <div class="dot-container">
+                                <span class="dot d-bond-dot"></span>
+                                <span class="branch group-o">=O</span>
+                                <span class="branch group-oh bottom">-OH</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quiz-final-name" id="quiz-final-name" style="display: none;">
+                        <span class="p-side">2-Methyl</span><span class="p-base">propan</span><span class="p-suf">säure</span>
+                    </div>
+                </div>
+                <div class="quiz-panel" id="quiz-panel"></div>
+            </div>
+        </section>
+
+        <section class="more-examples-section glass-panel">
+            <h2 class="section-title text-gradient">3 Check-Beispiele zum Mitreden</h2>
+            <p class="section-subtitle">Noch unsicher? Kein Problem! Hier sind 3 verschiedene Fälle. In jedem Schritt steht die dazugehörige Vokabel-Tabelle direkt dabei!</p>
+
+            <div class="extra-example-box">
+                <h3>Fall 1: Ein einfacher Alkohol</h3>
+                <div class="visual-formula" style="margin-bottom: 2rem;">
+                    <div class="dots">
+                        <div class="dot-container"><span class="dot"></span><span class="b-number">5</span></div>
+                        <span class="line"></span>
+                        <div class="dot-container"><span class="dot"></span><span class="b-number">4</span></div>
+                        <span class="line"></span>
+                        <div class="dot-container"><span class="dot"></span><span class="b-number">3</span></div>
+                        <span class="line"></span>
+                        <div class="dot-container">
+                            <span class="dot active-dot"></span>
+                            <span class="branch group-oh top">-OH</span>
+                            <span class="b-number">2</span>
+                        </div>
+                        <span class="line"></span>
+                        <div class="dot-container"><span class="dot"></span><span class="b-number">1</span></div>
+                    </div>
+                </div>
+                <div class="ex-steps">
+                    <div class="ex-step">
+                        <h4>1. Längste Kette zählen</h4>
+                        <div class="mini-list"><strong>Liste:</strong> 1=Methan, 2=Ethan, 3=Propan, 4=Butan, 5=Pentan</div>
+                        <p>5 Punkte = <strong>Pentan</strong>.</p>
+                    </div>
+                    <div class="ex-step">
+                        <h4>2. Boss-Buchstaben suchen</h4>
+                        <div class="mini-list"><strong>Liste:</strong> OH = "-ol", =O/-OH = "-säure", nix = "-an"</div>
+                        <p>Ein "OH" sichtbar. Also <strong>-ol</strong> ans Wortende.</p>
+                    </div>
+                    <div class="ex-step">
+                        <h4>3. Kette nummerieren</h4>
+                        <div class="mini-list"><strong>Regel:</strong> Zähle so, dass der Boss die KLEINSTMÖGLICHE Zahl bekommt!</div>
+                        <p>Von rechts: OH liegt auf Punkt <strong>2</strong>. (Von links wäre es 4). 2 gewinnt!</p>
+                    </div>
+                    <div class="ex-step">
+                        <h4>4. Extra-Äste checken</h4>
+                        <div class="mini-list"><strong>Liste:</strong> 1 Punkt = Methyl, 2 Punkte = Ethyl</div>
+                        <p>Keine weiteren Äste. Fertig.</p>
+                    </div>
+                    <div class="ex-result">Ergebnis: <span style="color:#fff;">Pentan</span><span style="color:#fbbf24">-2-</span><span style="color:#34d399">ol</span></div>
+                </div>
+            </div>
+
+            <div class="extra-example-box">
+                <h3>Fall 2: Ein Alkan mit einem Ast</h3>
+                <div class="visual-formula" style="margin-bottom: 2rem;">
+                    <div class="dots">
+                        <div class="dot-container"><span class="dot"></span><span class="b-number">5</span></div>
+                        <span class="line"></span>
+                        <div class="dot-container"><span class="dot"></span><span class="b-number">4</span></div>
+                        <span class="line"></span>
+                        <div class="dot-container">
+                            <span class="dot hl-dot-blue"></span>
+                            <span class="branch hl-text-blue top">CH&#8323;</span>
+                            <span class="b-number">3</span>
+                        </div>
+                        <span class="line"></span>
+                        <div class="dot-container"><span class="dot"></span><span class="b-number">2</span></div>
+                        <span class="line"></span>
+                        <div class="dot-container"><span class="dot"></span><span class="b-number">1</span></div>
+                    </div>
+                </div>
+                <div class="ex-steps">
+                    <div class="ex-step">
+                        <h4>1. Längste Kette zählen</h4>
+                        <div class="mini-list"><strong>Liste:</strong> 1=Methan, 2=Ethan, 3=Propan, 4=Butan, 5=Pentan</div>
+                        <p>5 C-Atome in der Hauptlinie = <strong>Pentan</strong>.</p>
+                    </div>
+                    <div class="ex-step">
+                        <h4>2. Boss-Buchstaben suchen</h4>
+                        <div class="mini-list"><strong>Liste:</strong> OH = "-ol", =O/-OH = "-säure", nix = "-an"</div>
+                        <p>Kein OH, kein =O. Endung bleibt <strong>-an</strong>.</p>
+                    </div>
+                    <div class="ex-step">
+                        <h4>3. Kette nummerieren</h4>
+                        <div class="mini-list"><strong>Regel:</strong> Kein Boss? Dann Ast-Anschlusspunkt so klein wie möglich nummerieren.</div>
+                        <p>Blaue Ast-Anschlussstelle: Hausnummer <strong>3</strong>.</p>
+                    </div>
+                    <div class="ex-step">
+                        <h4>4. Extra-Äste checken</h4>
+                        <div class="mini-list"><strong>Liste:</strong> 1 Ast-Punkt = Methyl, 2 Ast-Punkte = Ethyl</div>
+                        <p>1 Ast-Punkt (CH&#8323;) = <strong>Methyl</strong>. An Adresse 3: <strong>3-Methyl</strong>.</p>
+                    </div>
+                    <div class="ex-result">Ergebnis: <span style="color:#60a5fa">3-Methyl</span><span style="color:#fff;">pentan</span></div>
+                </div>
+            </div>
+
+            <div class="extra-example-box">
+                <h3>Fall 3: Eine kleine Carbonsäure</h3>
+                <div class="visual-formula" style="margin-bottom: 2rem;">
+                    <div class="dots">
+                        <div class="dot-container"><span class="dot"></span><span class="b-number">4</span></div>
+                        <span class="line"></span>
+                        <div class="dot-container"><span class="dot"></span><span class="b-number">3</span></div>
+                        <span class="line"></span>
+                        <div class="dot-container"><span class="dot"></span><span class="b-number">2</span></div>
+                        <span class="line"></span>
+                        <div class="dot-container">
+                            <span class="dot d-bond-dot"></span>
+                            <span class="branch group-o top">=O</span>
+                            <span class="branch group-oh bottom">-OH</span>
+                            <span class="b-number left-number">1</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="ex-steps">
+                    <div class="ex-step">
+                        <h4>1. Längste Kette zählen</h4>
+                        <div class="mini-list"><strong>Liste:</strong> 1=Methan, 2=Ethan, 3=Propan, 4=Butan, 5=Pentan</div>
+                        <p>4 Punkte = <strong>Butan</strong>.</p>
+                    </div>
+                    <div class="ex-step">
+                        <h4>2. Boss-Buchstaben suchen</h4>
+                        <div class="mini-list"><strong>Liste:</strong> OH = "-ol", =O/-OH = "-säure", nix = "-an"</div>
+                        <p>Kombination =O und -OH am Rand = Carbonsäure. Endung: <strong>-säure</strong>.</p>
+                    </div>
+                    <div class="ex-step">
+                        <h4>3. Kette nummerieren</h4>
+                        <div class="mini-list"><strong>Regel:</strong> Boss-Buchstaben bekommen kleinste Zahl!</div>
+                        <p>Säuren sitzen immer am Rand = automatisch Nummer <strong>1</strong>. Wird im Namen weggelassen.</p>
+                    </div>
+                    <div class="ex-step">
+                        <h4>4. Extra-Äste checken</h4>
+                        <div class="mini-list"><strong>Liste:</strong> 1 Ast-Punkt = Methyl, 2 Ast-Punkte = Ethyl</div>
+                        <p>Keine weiteren Äste. Fertig.</p>
+                    </div>
+                    <div class="ex-result">Ergebnis: <span style="color:#fff;">Butan</span><span style="color:#f87171">säure</span></div>
+                </div>
+            </div>
+
+            <div class="extra-example-box">
+                <h3>Fall 4: Ein richtiger dicker Ast! (Ethyl)</h3>
+                <div class="visual-formula" style="margin-bottom: 2rem;">
+                    <div class="dots">
+                        <div class="dot-container"><span class="dot"></span><span class="b-number">5</span></div>
+                        <span class="line"></span>
+                        <div class="dot-container"><span class="dot"></span><span class="b-number">4</span></div>
+                        <span class="line"></span>
+                        <div class="dot-container">
+                            <span class="dot hl-dot-blue"></span>
+                            <span class="branch hl-text-blue top" style="top:-70px; display:flex; flex-direction:column; align-items:center; gap:0;"><span>CH&#8323;</span><span style="font-size:24px; line-height: 0.8;">|</span><span>CH&#8322;</span></span>
+                            <span class="b-number">3</span>
+                        </div>
+                        <span class="line"></span>
+                        <div class="dot-container"><span class="dot"></span><span class="b-number">2</span></div>
+                        <span class="line"></span>
+                        <div class="dot-container"><span class="dot"></span><span class="b-number">1</span></div>
+                    </div>
+                </div>
+                <div class="ex-steps">
+                    <div class="ex-step">
+                        <h4>1. Längste Kette zählen</h4>
+                        <div class="mini-list"><strong>Liste:</strong> 1=Methan, 2=Ethan, 3=Propan, 4=Butan, 5=Pentan</div>
+                        <p>5 Punkte in der Hauptlinie = <strong>Pentan</strong>.</p>
+                    </div>
+                    <div class="ex-step">
+                        <h4>2. Boss-Buchstaben suchen</h4>
+                        <div class="mini-list"><strong>Liste:</strong> OH = "-ol", =O/-OH = "-säure", nix = "-an"</div>
+                        <p>Keine Sonder-Bosse. Endung: <strong>-an</strong>.</p>
+                    </div>
+                    <div class="ex-step">
+                        <h4>3. Kette nummerieren</h4>
+                        <div class="mini-list"><strong>Regel:</strong> Ast-Anschlusspunkt muss kleinste Hausnummer bekommen!</div>
+                        <p>Anschlusspunkt des blauen Astes: Hausnummer <strong>3</strong>.</p>
+                    </div>
+                    <div class="ex-step">
+                        <h4>4. Extra-Äste checken</h4>
+                        <div class="mini-list"><strong>Liste:</strong> 1 Ast-Punkt = Methyl, 2 verbundene Ast-Punkte = Ethyl</div>
+                        <p>Der blaue Ast hat <strong>2 Punkte</strong> (CH&#8322; + CH&#8323;) = <strong>Ethyl</strong>. An Adresse 3: <strong>3-Ethyl</strong>.</p>
+                    </div>
+                    <div class="ex-result">Ergebnis: <span style="color:#60a5fa">3-Ethyl</span><span style="color:#fff;">pentan</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cards-grid">
+            <article class="card glass-panel group-card">
+                <div class="card-header">
+                    <span class="badge blue">Nur Einfachbindungen</span>
+                    <h2>Alkane</h2>
+                </div>
+                <div class="card-body">
+                    <p class="rule">Endung: <span class="monospaced-bold">-an</span></p>
+                    <ul class="molecule-list">
+                        <li><span class="mol-name">Methan</span><span class="mol-formula">1C <div class="dots"><span class="dot"></span></div></span></li>
+                        <li><span class="mol-name">Ethan</span><span class="mol-formula">2C <div class="dots"><span class="dot"></span><span class="line"></span><span class="dot"></span></div></span></li>
+                        <li><span class="mol-name">Propan</span><span class="mol-formula">3C <div class="dots"><span class="dot"></span><span class="line"></span><span class="dot"></span><span class="line"></span><span class="dot"></span></div></span></li>
+                        <li><span class="mol-name">Butan</span><span class="mol-formula">4C <div class="dots"><span class="dot"></span><span class="line"></span><span class="dot"></span><span class="line"></span><span class="dot"></span><span class="line"></span><span class="dot"></span></div></span></li>
+                        <li><span class="mol-name">Pentan</span><span class="mol-formula">5C <div class="dots"><span class="dot"></span><span class="line"></span><span class="dot"></span><span class="line"></span><span class="dot"></span><span class="line"></span><span class="dot"></span><span class="line"></span><span class="dot"></span></div></span></li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="card glass-panel group-card">
+                <div class="card-header">
+                    <span class="badge green">OH-Gruppe</span>
+                    <h2>Alkohole</h2>
+                </div>
+                <div class="card-body">
+                    <p class="rule">Endung: <span class="monospaced-bold">-ol</span></p>
+                    <div class="alert warning">
+                        <strong>Achtung!</strong> Die OH-Gruppe bestimmt die Nummer (immer die kleinstmögliche Zahl!).
+                    </div>
+                    <div class="example-box">
+                        <span class="example-label">Beispiel:</span>
+                        <div class="example-formula">
+                            <span class="part base">Propan</span>-<span class="part number">2</span>-<span class="part suffix">ol</span>
+                        </div>
+                        <div class="visual-formula">
+                            <div class="dots">
+                                <div class="dot-container"><span class="dot"></span><span class="branch b-number">1</span></div>
+                                <span class="line"></span>
+                                <div class="dot-container">
+                                    <span class="dot active-dot"></span>
+                                    <span class="branch group-oh">OH</span>
+                                    <span class="branch b-number bottom-number">2</span>
+                                </div>
+                                <span class="line"></span>
+                                <div class="dot-container"><span class="dot"></span><span class="branch b-number">3</span></div>
+                            </div>
+                        </div>
+                        <p class="example-desc">3 C-Atome = Propan <br> Am 2. C-Atom hängt die OH-Gruppe = -ol.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card glass-panel group-card">
+                <div class="card-header">
+                    <span class="badge red">COOH-Gruppe</span>
+                    <h2>Carbonsäuren</h2>
+                </div>
+                <div class="card-body">
+                    <p class="rule">Endung: <span class="monospaced-bold">-säure</span></p>
+                    <div class="alert info">
+                        <strong>Tipp:</strong> Sitzt immer am Rand, bekommt deshalb automatisch die Nummer 1.
+                    </div>
+                    <div class="example-box">
+                        <span class="example-label">Beispiel:</span>
+                        <div class="example-formula">
+                            <span class="part base">Ethan</span><span class="part suffix">säure</span>
+                            <span class="slang">(Essigsäure)</span>
+                        </div>
+                        <div class="visual-formula">
+                            <div class="dots">
+                                <div class="dot-container"><span class="dot"></span><span class="branch b-number">2</span></div>
+                                <span class="line"></span>
+                                <div class="dot-container">
+                                    <span class="dot d-bond-dot"></span>
+                                    <span class="branch group-o">=O</span>
+                                    <span class="branch group-oh bottom">-OH</span>
+                                    <span class="branch b-number left-number">1</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="example-desc">2 C-Atome = Ethan <br> Die COOH-Gruppe = -säure.</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer style="text-align: center; padding: 2rem; color: var(--text-muted); font-size: 0.9rem;">
+        Viel Erfolg bei der Klausur! Du packst das.
+    </footer>
+
+    <script>
+        const questions = [
+            {
+                title: "Schritt 1: Wie viele C-Atome hat die längste Kette (inklusive der wichtigsten Gruppe)?",
+                options: ["2 (Ethan)", "3 (Propan)", "4 (Butan)"],
+                correct: 1
+            },
+            {
+                title: "Schritt 2: Welche wichtige Gruppe siehst du rechts am Rand?",
+                options: ["OH (-ol / Alkohol)", "COOH (-säure / Carbonsäure)", "Keine (-an)"],
+                correct: 1
+            },
+            {
+                title: "Schritt 3: An welchem C-Atom hängt die kleine Seitengruppe (CH3)? Die Carbonsäure-Gruppe bekommt automatisch die Nummer '1'. Zähle von dort aus rückwärts nach links!",
+                options: ["Am 1. C-Atom", "Am 2. C-Atom", "Am 3. C-Atom"],
+                correct: 1
+            },
+            {
+                title: "Schritt 4 (Seitenketten): Oben am 2. C-Atom klebt noch ein 'CH3' (ein einziges C!). Welche Puzzleteil-Lösung baust du nach dem Muster '[Zahl]-[Name]'?",
+                options: ["3-Methyl (Weil es am 3. Atom hängt)", "2-Ethyl (Weil es 2 Buchstaben sind)", "2-Methyl (Weil es am 2. Atom hängt!)"],
+                correct: 2
+            }
+        ];
+
+        let currentStepIndex = 0;
+        const panel = document.getElementById('quiz-panel');
+
+        function renderQuiz() {
+            panel.innerHTML = "";
+            questions.forEach((q, index) => {
+                if (index > currentStepIndex) return;
+                const card = document.createElement("div");
+                card.className = "quiz-step-card " + (index === currentStepIndex ? "active" : "completed");
+                const title = document.createElement("div");
+                title.className = "quiz-step-title";
+                title.innerText = q.title;
+                card.appendChild(title);
+                const optContainer = document.createElement("div");
+                optContainer.className = "quiz-options";
+                q.options.forEach((optText, optIndex) => {
+                    const btn = document.createElement("button");
+                    btn.className = "quiz-btn";
+                    btn.innerText = optText;
+                    if (index < currentStepIndex) {
+                        if (optIndex === q.correct) btn.classList.add("correct");
+                        btn.disabled = true;
+                        btn.style.cursor = "default";
+                    } else {
+                        btn.onclick = () => handleAnswer(optIndex, q.correct, btn);
+                    }
+                    optContainer.appendChild(btn);
+                });
+                card.appendChild(optContainer);
+                panel.appendChild(card);
+            });
+            if (currentStepIndex === questions.length) {
+                document.getElementById('quiz-final-name').style.display = "block";
+            }
+        }
+
+        function handleAnswer(selected, correct, btn) {
+            if (selected === correct) {
+                btn.classList.add("correct");
+                setTimeout(() => { currentStepIndex++; renderQuiz(); }, 400);
+            } else {
+                btn.classList.add("wrong");
+                setTimeout(() => btn.classList.remove("wrong"), 500);
+            }
+        }
+
+        renderQuiz();
+    </script>
+</body>
+</html>
+

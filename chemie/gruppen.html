@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funktionelle Gruppen - Chemie Spickzettel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&family=JetBrains+Mono:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-effects">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <nav class="site-nav">
+        <div class="site-nav-inner">
+            <span class="nav-label">Chemie</span>
+            <a href="index.html">Nomenklatur</a>
+            <a href="gruppen.html" class="active">Funktionelle Gruppen</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1 class="text-gradient" style="font-size: 3.5rem; line-height: 1.1;">Die VIP-Gäste: <br>Funktionelle Gruppen</h1>
+        <p class="subtitle">Das "Who is Who" der Chemie. Welcher Teil des Moleküls hat das Kommando und wer muss sich als Verlierer unterordnen?</p>
+    </header>
+
+    <main class="container">
+        <!-- Einleitung -->
+        <section class="intro-section glass-panel">
+            <h2 class="section-title text-gradient" style="font-size: 2.2rem;">Was zum Teufel sind "Funktionelle Gruppen"?</h2>
+            <div class="intro-content">
+                <p style="font-size: 1.15rem; color: var(--text-muted); margin-bottom: 1.5rem; text-align: center;">Ein Standard-Alkan (nur weiße Pünktchen) ist total langweilig und reagiert in der Chemie fast gar nicht. Erst wenn sich plötzlich Sauerstoff (die roten und grünen Buchstaben) oder Stickstoff einnistet, knallt es! Dieser neue Baustein drückt dem ganzen Molekül sofort seinen Stempel und seine Eigenschaft auf. Darum nennt man diese Buchstaben "Funktionelle Gruppen".</p>
+
+                <div class="alert warning">
+                    <strong>ACHTUNG – DIE RANGORDNUNG! (Das Gesetz des Stärkeren)</strong><br>
+                    Oft gibt es auf einer Kette mehrere Mafiabosse (einen Alkohol und eine Carbonsäure). <strong>Es darf aber nur EIN Baustein in die Endung des Namens!</strong><br>
+                    Es gewinnt immer der, der in der Rangliste oben steht! Der Sieger schreibt sich als Boss in die <strong>Endung (Suffix)</strong>. Der brutale Verlierer wird enteignet und muss wie alle anderen unwichtigen Äste vorne als verhasste <strong>Vorsilbe (Präfix)</strong> aufgeführt werden.
+                </div>
+            </div>
+        </section>
+
+        <!-- Die Rangliste -->
+        <section class="hierarchy-section glass-panel">
+            <h2 class="section-title text-gradient">Die ultimative Boss-Rangliste</h2>
+            <p class="section-subtitle">Von ganz mächtig bis erbärmlich schwach! Diese Reihenfolge musst du auswendig wissen.</p>
+
+            <div class="hierarchy-list">
+
+                <!-- Rang 1: Carbonsäure -->
+                <div class="hierarchy-item" style="border-left: 4px solid var(--color-red);">
+                    <div class="rank">#1</div>
+                    <div class="visual-formula">
+                        <div class="dots" style="padding: 0;">
+                            <span class="line"></span>
+                            <div class="dot-container">
+                                <span class="dot d-bond-dot"></span>
+                                <span class="branch group-o top">=O</span>
+                                <span class="branch group-oh bottom">-OH</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group-details">
+                        <h3 style="font-size: 1.8rem; color: var(--color-red); margin:0;">Carbonsäure</h3>
+                        <p style="margin:0; color: var(--text-muted);">Das absolute Boss-Monster. Sitzt immer am Rand und gewinnt gegen JEDEN. Bekommt immer die Hausnummer 1.</p>
+                        <div style="margin-top: 0.5rem; display: flex; gap: 1rem;">
+                            <span class="badge red" style="font-size:1rem;">Als Gewinner (Endung): <strong>-säure</strong></span>
+                        </div>
+                        <p style="margin-top: 0.5rem; font-size: 1rem;"><em>Pures Rezept:</em> Wenn du =O und -OH an einem Rand-Punkt siehst, setze "-säure" ans Ende.</p>
+                    </div>
+                </div>
+
+                <!-- Rang 2: Aldehyd -->
+                <div class="hierarchy-item" style="border-left: 4px solid #f97316;">
+                    <div class="rank">#2</div>
+                    <div class="visual-formula">
+                        <div class="dots" style="padding: 0;">
+                            <span class="line"></span>
+                            <div class="dot-container">
+                                <span class="dot d-bond-dot" style="background:#f97316; box-shadow:0 0 15px rgba(249,115,22,0.5);"></span>
+                                <span class="branch top" style="color:#f97316; text-shadow:0 0 8px rgba(249,115,22,0.5);">=O</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group-details">
+                        <h3 style="font-size: 1.8rem; color: #f97316; margin:0;">Aldehyd</h3>
+                        <p style="margin:0; color: var(--text-muted);">Ein Doppelbindungs-Sauerstoff (=O), der völlig alleine (ohne das zusätzliche -OH der Carbonsäure) ganz am Rand rumhängt.</p>
+                        <div style="margin-top: 0.5rem; display: flex; gap: 1rem;">
+                            <span class="badge" style="background:rgba(249,115,22,0.1); color:#fdba74; border: 1px solid rgba(249,115,22,0.3); font-size:1rem;">Als Gewinner (Endung): <strong>-al</strong></span>
+                        </div>
+                        <p style="margin-top: 0.5rem; font-size: 1rem;"><em>Pures Rezept:</em> Randpunkt + Oben nur =O = "-al" (Wie in Methan<strong>al</strong>)</p>
+                    </div>
+                </div>
+
+                <!-- Rang 3: Keton -->
+                <div class="hierarchy-item" style="border-left: 4px solid #facc15;">
+                    <div class="rank">#3</div>
+                    <div class="visual-formula">
+                        <div class="dots" style="padding: 0;">
+                            <span class="line"></span>
+                            <div class="dot-container">
+                                <span class="dot d-bond-dot" style="background:#facc15; box-shadow:0 0 15px rgba(250,204,21,0.5);"></span>
+                                <span class="branch top" style="color:#facc15; text-shadow:0 0 8px rgba(250,204,21,0.5);">=O</span>
+                            </div>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                    <div class="group-details">
+                        <h3 style="font-size: 1.8rem; color: #facc15; margin:0;">Keton</h3>
+                        <p style="margin:0; color: var(--text-muted);">Sieht aus wie Rang 2, ABER dieses =O klebt irgendwo <strong>mitten in der Hauptlinie</strong> (nicht am Rand!).</p>
+                        <div style="margin-top: 0.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+                            <span class="badge" style="background:rgba(250,204,21,0.1); color:#fef08a; border: 1px solid rgba(250,204,21,0.3); font-size:1rem;">Als Gewinner (Endung): <strong>-on</strong></span>
+                            <span class="badge" style="background:rgba(255,255,255,0.05); color:#a1a1aa; border: 1px solid rgba(255,255,255,0.1); font-size:1rem;">Als Verlierer (Vorsilbe): <strong>oxo-</strong></span>
+                        </div>
+                        <p style="margin-top: 0.5rem; font-size: 1rem;"><em>Pures Rezept:</em> Ein =O in der Mitte ist ein "-on" (Beispiel: Propan-2-<strong>on</strong>).</p>
+                    </div>
+                </div>
+
+                <!-- Rang 4: Alkohol -->
+                <div class="hierarchy-item" style="border-left: 4px solid var(--color-green);">
+                    <div class="rank">#4</div>
+                    <div class="visual-formula">
+                        <div class="dots" style="padding: 0;">
+                            <span class="line"></span>
+                            <div class="dot-container">
+                                <span class="dot active-dot"></span>
+                                <span class="branch group-oh top">-OH</span>
+                            </div>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                    <div class="group-details">
+                        <h3 style="font-size: 1.8rem; color: var(--color-green); margin:0;">Alkohol (Hydroxy-Gruppe)</h3>
+                        <p style="margin:0; color: var(--text-muted);">Die ganz normale Alkohol-Gruppe, die du schon kennst. Verliert gegen fast alle oben genannten Bosse!</p>
+                        <div style="margin-top: 0.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+                            <span class="badge green" style="font-size:1rem;">Als Gewinner (Endung): <strong>-ol</strong></span>
+                            <span class="badge" style="background:rgba(255,255,255,0.05); color:#a1a1aa; border: 1px solid rgba(255,255,255,0.1); font-size:1rem;">Als Verlierer (Vorsilbe): <strong>hydroxy-</strong></span>
+                        </div>
+                        <p style="margin-top: 0.5rem; font-size: 1rem;"><em>Pures Rezept:</em> Ist kein Boss über mir da? Endung "-ol". (Beispiel: Propan-2-<strong>ol</strong>).</p>
+                    </div>
+                </div>
+
+                <!-- Rang 5: Amin -->
+                <div class="hierarchy-item" style="border-left: 4px solid var(--color-blue);">
+                    <div class="rank">#5</div>
+                    <div class="visual-formula">
+                        <div class="dots" style="padding: 0;">
+                            <span class="line"></span>
+                            <div class="dot-container">
+                                <span class="dot" style="background:var(--color-blue); box-shadow:0 0 15px var(--glow-blue);"></span>
+                                <span class="branch top" style="color:var(--color-blue); text-shadow:0 0 8px var(--glow-blue);">-NH&#8322;</span>
+                            </div>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                    <div class="group-details">
+                        <h3 style="font-size: 1.8rem; color: var(--color-blue); margin:0;">Amin</h3>
+                        <p style="margin:0; color: var(--text-muted);">Sobald ein N (Stickstoff) herumschwirrt. Riecht übel.</p>
+                        <div style="margin-top: 0.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+                            <span class="badge blue" style="font-size:1rem;">Als Gewinner (Endung): <strong>-amin</strong></span>
+                            <span class="badge" style="background:rgba(255,255,255,0.05); color:#a1a1aa; border: 1px solid rgba(255,255,255,0.1); font-size:1rem;">Als Verlierer (Vorsilbe): <strong>amino-</strong></span>
+                        </div>
+                        <p style="margin-top: 0.5rem; font-size: 1rem;"><em>Pures Rezept:</em> Siehst du ein -NH&#8322;, schreibst du "-amin" ans Ende.</p>
+                    </div>
+                </div>
+
+                <!-- Rang LOSER: Halogene -->
+                <div class="hierarchy-item" style="border-left: 4px solid #64748b; filter: grayscale(50%);">
+                    <div class="rank" style="font-size: 2rem;">LOSER</div>
+                    <div class="visual-formula">
+                        <div class="dots" style="padding: 0;">
+                            <span class="line"></span>
+                            <div class="dot-container">
+                                <span class="dot" style="background:#94a3b8; box-shadow:0 0 15px rgba(148,163,184,0.5);"></span>
+                                <span class="branch top" style="color:#cbd5e1; text-shadow:0 0 8px rgba(148,163,184,0.5);">-Cl</span>
+                            </div>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                    <div class="group-details">
+                        <h3 style="font-size: 1.8rem; color: #cbd5e1; margin:0;">Halogene</h3>
+                        <p style="margin:0; color: var(--text-muted);">Chlor (Cl), Fluor (F), Brom (Br) und Iod (I). Das absolute Schlusslicht! Dürfen niemals das Ende eines Namens beanspruchen. Werden behandelt wie ein normaler Methyl-Ast.</p>
+                        <div style="margin-top: 0.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+                            <span class="badge" style="background:rgba(255,255,255,0.05); color:#a1a1aa; border: 1px solid rgba(255,255,255,0.1); font-size:1rem;">Immer nur Vorsilbe: <strong>chlor-, fluor-, brom-...</strong></span>
+                        </div>
+                        <p style="margin-top: 0.5rem; font-size: 1rem;"><em>Pures Rezept:</em> 2-<strong>Chlor</strong>propan. Kein Stress mit der Endung, die bleibt beim regulären "-an"!</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Clash Beispiel -->
+        <section class="more-examples-section glass-panel" style="margin-bottom: 4rem;">
+            <h2 class="section-title text-gradient">Master-Aufgabe: Der Clash der Götter</h2>
+            <p class="section-subtitle">Was passiert, wenn Carbonsäure und Alkohol sich wörtlich prügeln?</p>
+
+            <div class="extra-example-box" style="margin-top: 2rem; border-color: var(--color-red);">
+                <h3>Fall 5: Das Duell (Endgegner)</h3>
+                <div class="visual-formula" style="margin-bottom: 2rem;">
+                    <div class="dots" style="justify-content: center;">
+                        <div class="dot-container">
+                            <span class="dot"></span>
+                            <span class="b-number">3</span>
+                        </div>
+                        <span class="line"></span>
+                        <div class="dot-container">
+                            <span class="dot active-dot" style="background: #a1a1aa; box-shadow: none;"></span>
+                            <span class="branch group-oh top" style="color:#a1a1aa; text-shadow:none;">-OH</span>
+                            <span class="b-number">2</span>
+                        </div>
+                        <span class="line"></span>
+                        <div class="dot-container">
+                            <span class="dot d-bond-dot"></span>
+                            <span class="branch group-o top">=O</span>
+                            <span class="branch group-oh bottom">-OH</span>
+                            <span class="b-number left-number">1</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ex-steps">
+                    <div class="ex-step">
+                        <h4>Der Kampf!</h4>
+                        <div class="mini-list"><strong>Liste checken!</strong> Rang 1 gegen Rang 4.</div>
+                        <p>Auf der Kette (3 Punkte = Propan) hängen streng genommen zwei Bosse: in der Mitte ein grünes <strong>-OH (Alkohol)</strong> und rechts eine fette <strong>Carbonsäure</strong>.</p>
+                    </div>
+                    <div class="ex-step">
+                        <h4>Die Rangliste entscheidet</h4>
+                        <p>Carbonsäure ist <strong>Rang 1</strong>. Das -OH ist nur auf <strong>Rang 4</strong>.<br>Die Carbonsäure zwingt den Gegner brutal in die Knie. Das Molekül heißt deshalb ganz normal "Propansäure". Nur die Endung des Siegers bleibt bestehen!</p>
+                    </div>
+                    <div class="ex-step">
+                        <h4>Was passiert mit dem Verlierer?</h4>
+                        <p>Wie in der Rang-Tabelle aufgelistet, verliert das -OH sein Recht, als "-ol" bezeichnet zu werden, und fällt in Ungnade. Sein Degradierungs-Name lautet: <strong>hydroxy-</strong>. Man behandelt ihn jetzt absolut gleichgültig wie einen schnöden Methyl-Ast!</p>
+                    </div>
+                    <div class="ex-step">
+                        <h4>Hausnummer finden (Lego basteln)</h4>
+                        <p>Das degradierte Hydroxy-Trauerspiel wohnt auf der Hausnummer 2. Also kleben wir ihn samt Hausnummer nach ganz vorne! Das ergibt: <strong>2-Hydroxy</strong>.</p>
+                    </div>
+                    <div class="ex-result">Triumphales Ergebnis: <span style="color:#a1a1aa">2-Hydroxy</span><span style="color:#fff;">propan</span><span style="color:#f87171">säure</span></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer style="text-align: center; padding: 2rem; color: var(--text-muted); font-size: 0.9rem;">
+        Chemie - Wer hat die wichtigste funktionelle Gruppe?
+    </footer>
+</body>
+</html>
+
